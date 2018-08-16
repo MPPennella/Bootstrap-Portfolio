@@ -19,3 +19,11 @@ body {
     border: 2px solid #dddddd;
     background-color: #ffffff;
 }
+
+/************************************
+ * Classes used in copyright footer * 
+ ************************************/
+ .copyrightInfo {
+     border-top: 5px solid #4aaaa5;
+     background-color: #666666;
+ }
