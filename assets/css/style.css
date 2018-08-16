@@ -49,6 +49,11 @@ h1, h2 {
     color: #dddddd;
 }
 
+.techList {
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
 
 /************************************
  * Classes used in copyright footer * 
