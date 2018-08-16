@@ -34,20 +34,43 @@
     </nav>
     
     <section class="container mb-md-5 p-4 mainContent">
-      <h2 class="contentHead">Contact</h2>
+      <div class="row">
+        <div class="col-12">
+          <h2 class="contentHead">Contact</h2>
+        </div>
+      </div>
       
       <div class="hRule"></div>
       
-      <form>
-          Name<br>
-          <input type="text" name="name" placeholder="John Smith" class="nameField"><br>
-          Email<br>
-          <input type="text" name="email" placeholder="example@gmail.com" class="emailField"><br>
-          Message<br>
-          <textarea name="message" class="messageField"></textarea><br>
+      <div class="row">
+        <form class="col-12">
 
-          <input type="submit" class="submitButton">
-      </form>
+          <div class="row">
+            <div class="col-md-6">
+              Name<br>
+              <input type="text" name="name" placeholder="John Smith" class="nameField">
+            </div>
+            <div class="col-md-6">
+              Email<br>
+              <input type="text" name="email" placeholder="example@gmail.com" class="emailField">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12">
+              Message<br>
+              <textarea name="message" class="messageField"></textarea><br>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12">
+              <input type="submit" class="submitButton">
+            </div>
+          </div>
+          
+        </form>
+      </div>
       
     </section>
   
