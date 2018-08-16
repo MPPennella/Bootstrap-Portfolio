@@ -1,6 +1,14 @@
 body {
     background: #fff2e6;
     background-image: url("../images/oriental.png");
+
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #777777;
+}
+
+h1, h2 {
+    font-family: "Georgia", Times, "Times New Roman", serif;
+    font-weight: bold;
 }
 
 /**********************************
@@ -11,6 +19,12 @@ body {
     background-color: #ffffff;
 }
 
+.nameplate {
+    background-color: #4aaaa5;
+
+    font-size: 1.5rem;
+    color: #ffffff !important;
+}
 
 /************************************
  * Classes used in main page bodies * 
@@ -20,6 +34,10 @@ body {
     background-color: #ffffff;
 }
 
+.contentHead {
+    font-size: 1.5rem;
+    color: #4aaaa5;
+}
 /************************************
  * Classes used in copyright footer * 
  ************************************/
