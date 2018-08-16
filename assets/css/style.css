@@ -58,7 +58,10 @@ h1, h2 {
 /************************************
  * Classes used in copyright footer * 
  ************************************/
- .copyrightInfo {
-     border-top: 5px solid #4aaaa5;
-     background-color: #666666;
+.copyrightInfo {
+    border-top: 5px solid #4aaaa5;
+    background-color: #666666;
+
+    font-size: 0.6rem;
+    color: white;
  }
