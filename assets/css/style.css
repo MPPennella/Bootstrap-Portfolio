@@ -71,11 +71,11 @@ h1, h2, h3 {
   **********************************/
 
  .portImgContainer {
-    /* display: inline-block;
-    position: relative; */
+    /* display: inline-block; */
+    /* position: relative; */
 
-    /* margin-right: 25px;
-    margin-bottom: 25px; */
+    /* margin-right: 25px; */
+    margin-bottom: 25px;
 }
 
 /* Ended up not styling this class */
@@ -84,18 +84,29 @@ h1, h2, h3 {
 } */
 
 .imgLabel {
-    /* position: absolute;
-    left: 0px;
-    bottom: 10px; */
+    position: relative;
+    bottom: 80px;
+    margin: 0 auto -80px;
+    max-width: 320px;
 
     padding: 10px;
     /* width: calc(100% - 2 * 10px); */
 
     background: #4aaaa5;
 
+}
+
+.portHeader {
+    margin: 0;
+
     color: #ffffff;
     font-size: 20px;
     text-align: center;
+}
+
+.gitLink, .gitLink:hover {
+    color: #ffffff;
+    font-size: 14px;
 }
 
 /********************************
